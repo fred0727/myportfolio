@@ -77,9 +77,10 @@ body{
 .img-portada{
     width: 395px;
     height: 400px;
-    display: flex !important;
-    justify-content: end !important;
-    margin-right: 100px;
+    border-radius: 50% !important;
+    background-image: url('images/perfil.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .social{
@@ -216,7 +217,7 @@ footer{
     }
 
     .img-portada{
-        height: auto !important;
+        /* height: auto !important; */
     }
 
     #ancla{
@@ -366,8 +367,8 @@ footer{
     }
 
     .img-portada{
-        width: 100% !important;
-        height: auto;
+        width: 70% !important;
+        height: 300px;
     }
 
     .text-title-compt{
